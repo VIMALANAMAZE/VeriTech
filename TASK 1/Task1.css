@@ -1,0 +1,221 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+.heading h2
+{
+    align-content: center;
+    background-color: rgb(238, 132, 227);
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.para{
+      align-content: center;
+}
+.p1{
+
+    display : flex;
+    justify-content : center;
+    align-content : center;
+} 
+.p2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.p3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.dashline
+ {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(238, 132, 227);
+    
+}
+.team
+{
+    display: flex;
+    justify-content: center;
+}
+.htab{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+.htab h2
+{
+    align-content: center;
+    background-color: rgb(238, 132, 227);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.founder 
+{
+    font-size: medium;
+}
+.foot-text{
+    text-align: center;
+    margin-top: 15px;
+}
+.below-text{
+    text-align: center;
+    color: rgb(239, 40, 220) ;
+}
+.img1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image1{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    
+}
+.img2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.htab1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 70px;
+  }
+
+.htab1 h2
+{
+    align-content: center;
+    background-color: rgb(238, 132, 227);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.img3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+.htab2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 70px;
+  }
+
+.htab2 h2
+{
+    align-content: center;
+    background-color: rgb(238, 132, 227);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+
+}
+.img5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+.img6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    height: 80px; 
+    width: 100px;
+    background: rgb(238, 132, 227);
+    overflow: hidden;
+  }
+  
+  .ribbon-right0 {
+    right: 0;
+  }
+  
+  .ribbon-left0 {
+    left: 0;
+  }
+  
+  .ribbon-m {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; 
+    height: 100%;
+    clip-path: polygon(0 0, 50% 50%, 0 100%);
+    background-color: #fff;
+  }
+  
+  .ribbon-square {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: #fff; 
+  }
+
+  @media screen and (max-width: 863px) {
+    .ribbon {
+        display: none;
+      }
+    
+  }
